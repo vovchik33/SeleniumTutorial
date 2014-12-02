@@ -18,4 +18,9 @@ public class HelloWorldTest {
         driver.quit();
 
     }
+
+    @Test
+    public void helloWorldTest() {
+        Assert.assertTrue(true);
+    }
 }
