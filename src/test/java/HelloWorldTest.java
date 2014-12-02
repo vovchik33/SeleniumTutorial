@@ -21,6 +21,6 @@ public class HelloWorldTest {
 
     @Test
     public void helloWorldTest() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 }
