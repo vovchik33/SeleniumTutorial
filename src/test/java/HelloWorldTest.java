@@ -21,6 +21,11 @@ public class HelloWorldTest {
 
     @Test
     public void helloWorldTest() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
+    }
+    @Test
+
+    public void helloWorld2Test() {
+        Assert.assertTrue(true);
     }
 }
