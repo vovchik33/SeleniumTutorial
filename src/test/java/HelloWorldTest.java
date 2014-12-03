@@ -9,14 +9,12 @@ import org.testng.annotations.Test;
 public class HelloWorldTest {
     @Test
     public void loadTestThisWebsite() {
-
-        WebDriver driver = new FirefoxDriver();
-        driver.get("http://www.google.com");
-        System.out.println("Page Title is " + driver.getTitle());
-        System.out.printf("Thread Id : %s%n", Thread.currentThread().getId());
-        Assert.assertEquals("Google", driver.getTitle());
-        driver.quit();
-
+//        WebDriver driver = new FirefoxDriver();
+//        driver.get("http://www.google.com");
+//        System.out.println("Page Title is " + driver.getTitle());
+//        System.out.printf("Thread Id : %s%n", Thread.currentThread().getId());
+//        Assert.assertEquals("Google", driver.getTitle());
+//        driver.quit();
     }
 
     @Test
