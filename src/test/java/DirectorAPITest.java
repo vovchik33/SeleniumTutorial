@@ -26,9 +26,9 @@ public class DirectorAPITest {
         doc.getDocumentElement().normalize();
 
         Assert.assertEquals("Response", doc.getDocumentElement().getNodeName());
-//        Assert.assertEquals("Huy", doc.getDocumentElement().getNodeName());
+        Assert.assertEquals("Huy", doc.getDocumentElement().getNodeName());
 
-//        NodeList nodeLst = doc.getElementsByTagName("ResponseDetails");
+        NodeList nodeLst = doc.getElementsByTagName("ResponseDetails");
 
 //        for (int s = 0; s < nodeLst.getLength(); s++) {
 //
